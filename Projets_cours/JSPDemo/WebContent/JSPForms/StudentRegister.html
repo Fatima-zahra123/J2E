@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Student Registration Form</title></head>
+
+<body>
+
+<form action="student-response.jsp">
+
+	First name: <input type="text" name="firstName" />
+	
+	<br/><br/>
+	
+	Last name: <input type="text" name="lastName" />
+	
+	<br/><br/>
+Country: <br/>
+	<select name="country">
+		<option value="braz">Brazil</option>
+		<option value="mor">Morocco</option>
+		<option value="ger">Germany</option>
+		<option value="egy">Egypt</option>
+		<option value="turk">Turkey</option>
+		<option value="GB">United Kingdom</option>
+		<option value="USA">United States of America</option>	
+	</select>
+<br/><br/>
+
+	Favorite Programming Language: <br/>
+	
+	<input type="radio" name="favoriteLanguage" value="Java"> Classic Java
+	<input type="radio" name="favoriteLanguage" value="C#"> C Sharp
+	<input type="radio" name="favoriteLanguage" value="PHP"> advanced PHP 
+	<input type="radio" name="favoriteLanguage" value="Ruby"> Ruby on Rails
+	<br/><br/>
+	
+	Diplomas and certificats: <br/>
+	<input type="checkbox" name="dipl" value="bac"> Bac
+	<input type="checkbox" name="dipl" value="lis"> Lisence
+	<input type="checkbox" name="dipl" value="master"> Master
+	<br/><br/>
+	<input type="submit" value="Submit" />
+	
+</form>
+
+</body>
+</html>

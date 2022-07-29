@@ -1,0 +1,4 @@
+1- create a javabean ex : parent
+2- create an inerface of repository 
+3- inerface of repository extends JpaRepository<javabean, type of id>
+4- service class 
